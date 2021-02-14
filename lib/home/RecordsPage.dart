@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:time_tracker/Authentication/Models/Record.dart';
-import 'file:///C:/Users/F-IRMA/AndroidStudioProjects/time_tracker/lib/Authentication/SignIn/SignInPage.dart';
+import 'package:time_tracker/Authentication/SignIn/SignInPage.dart';
 import 'package:time_tracker/Components/PlatformAwareDialog.dart';
 import 'package:time_tracker/Services/Database.dart';
 import 'package:time_tracker/Services/auth.dart';

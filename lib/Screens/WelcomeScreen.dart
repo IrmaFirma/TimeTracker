@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'file:///C:/Users/F-IRMA/AndroidStudioProjects/time_tracker/lib/Authentication/SignIn/SignInPage.dart';
+import 'package:time_tracker/Authentication/SignIn/SignInPage.dart';
 import 'package:time_tracker/Components/ButtonOne.dart';
 
 class WelcomeScreen extends StatelessWidget {

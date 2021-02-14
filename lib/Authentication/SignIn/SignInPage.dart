@@ -3,14 +3,15 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter/widgets.dart';
 import 'package:provider/provider.dart';
+import 'package:time_tracker/Authentication/Registration/RegistrationPage.dart';
+import 'package:time_tracker/home/RecordsPage.dart';
 import 'Email_SignIn.dart';
-import 'file:///C:/Users/F-IRMA/AndroidStudioProjects/time_tracker/lib/Authentication/Registration/RegistrationPage.dart';
-import 'file:///C:/Users/F-IRMA/AndroidStudioProjects/time_tracker/lib/Authentication/SignIn/SignInManager.dart';
 import 'package:time_tracker/Components/ButtonOne.dart';
 import 'package:time_tracker/Components/Constants.dart';
 import 'package:time_tracker/Components/PlatformExceptionDialog.dart';
-import 'file:///C:/Users/F-IRMA/AndroidStudioProjects/time_tracker/lib/home/RecordsPage.dart';
 import 'package:time_tracker/Services/auth.dart';
+
+import 'SignInManager.dart';
 
 class SignInPage extends StatelessWidget {
   SignInPage({@required this.manager, @required this.isLoading});

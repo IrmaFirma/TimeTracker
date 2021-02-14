@@ -7,7 +7,6 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'file:///C:/Users/F-IRMA/AndroidStudioProjects/time_tracker/lib/Authentication/SignIn/SignInPage.dart';
 import 'package:time_tracker/Screens/LandingPage.dart';
 import 'package:time_tracker/Services/auth.dart';
 

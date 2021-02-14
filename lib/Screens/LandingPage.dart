@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'file:///C:/Users/F-IRMA/AndroidStudioProjects/time_tracker/lib/home/RecordsPage.dart';
-import 'package:time_tracker/Screens/WelcomeScreen.dart';
 import 'package:time_tracker/Services/auth.dart';
 import 'package:time_tracker/Services/Database.dart';
+import 'package:time_tracker/home/RecordsPage.dart';
+
+import 'WelcomeScreen.dart';
 
 class LandingPage extends StatelessWidget {
   @override

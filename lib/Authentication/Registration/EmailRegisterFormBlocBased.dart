@@ -1,13 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:provider/provider.dart';
+import 'package:time_tracker/home/RecordsPage.dart';
 import 'EmailRegisterBloc.dart';
 import 'package:time_tracker/Components/ButtonOne.dart';
 import 'package:time_tracker/Components/PlatformExceptionDialog.dart';
-import 'file:///C:/Users/F-IRMA/AndroidStudioProjects/time_tracker/lib/home/RecordsPage.dart';
 import 'package:time_tracker/Services/auth.dart';
 import 'EmailRegisterModel.dart';
-
 
 class EmailRegisterFormBlocBased extends StatefulWidget {
   EmailRegisterFormBlocBased({@required this.bloc});
@@ -30,7 +29,8 @@ class EmailRegisterFormBlocBased extends StatefulWidget {
       _EmailRegisterFormBlocBasedState();
 }
 
-class _EmailRegisterFormBlocBasedState extends State<EmailRegisterFormBlocBased> {
+class _EmailRegisterFormBlocBasedState
+    extends State<EmailRegisterFormBlocBased> {
   //editing controllers for email and password
   final TextEditingController _emailController = TextEditingController();
   final TextEditingController _passwordController = TextEditingController();
@@ -47,8 +47,11 @@ class _EmailRegisterFormBlocBasedState extends State<EmailRegisterFormBlocBased>
   Future<void> submitButton() async {
     try {
       await widget.bloc.submitButton();
-      Navigator.of(context)
-          .push(MaterialPageRoute<void>(builder: (context) => RecordsPage()));
+      Navigator.of(context).push(
+        MaterialPageRoute<void>(
+          builder: (context) => RecordsPage(),
+        ),
+      );
     } catch (e) {
       PlatformExceptionAlertDialog(
         title: 'Registration Failed',
@@ -58,7 +61,7 @@ class _EmailRegisterFormBlocBasedState extends State<EmailRegisterFormBlocBased>
   }
 
   //changing between text for creating account and signIn
-  void toggleFormType(){
+  void toggleFormType() {
     widget.bloc.toggleFormType();
     _emailController.clear();
     _passwordController.clear();

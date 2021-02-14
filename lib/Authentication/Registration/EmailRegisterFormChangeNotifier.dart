@@ -3,8 +3,8 @@ import 'package:flutter/services.dart';
 import 'package:provider/provider.dart';
 import 'package:time_tracker/Components/ButtonOne.dart';
 import 'package:time_tracker/Components/PlatformExceptionDialog.dart';
+import 'package:time_tracker/home/RecordsPage.dart';
 import 'EmailRegisterChangeModel.dart';
-import 'file:///C:/Users/F-IRMA/AndroidStudioProjects/time_tracker/lib/home/RecordsPage.dart';
 import 'package:time_tracker/Services/auth.dart';
 import '../Models/EmailSignInChangeModel.dart';
 
