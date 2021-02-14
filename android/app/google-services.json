@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "910970896983",
+    "project_id": "timetracker-b3937",
+    "storage_bucket": "timetracker-b3937.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:910970896983:android:03f5c73742d671c34a9912",
+        "android_client_info": {
+          "package_name": "com.irmapreldzic.time_tracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "910970896983-abbrosc1ns0psshdi2b6bft8uqiti43d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCx2lZbjlZ1cSyfH0nITeFCwp8Ul2mgY6w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "910970896983-abbrosc1ns0psshdi2b6bft8uqiti43d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
